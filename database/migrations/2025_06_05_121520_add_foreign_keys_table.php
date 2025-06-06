@@ -17,7 +17,7 @@ return new class extends Migration
 
         Schema::table('tbl_plant_serial_ranges', function (Blueprint $table) {
             $table->foreignUuid('model_id')->references('id')->on('tbl_plant_models');
-            $table->foreignUuid('plant_area_id')->references('id')->on('tbl_plant_areas');
+            // $table->foreignUuid('plant_area_id')->references('id')->on('tbl_plant_areas');
         });
 
         Schema::table('tbl_plant_serial_numbers', function (Blueprint $table) {

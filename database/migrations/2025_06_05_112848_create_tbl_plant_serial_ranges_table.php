@@ -15,7 +15,7 @@ return new class extends Migration
             $table->uuid('id')->primary();
             // $table->uuid('model_id')->nullable();
             // $table->uuid('plant_area_id')->nullable();
-            $table->string('name');
+            $table->string('prefix');
             $table->text('description')->nullable();
             $table->timestamps();
             $table->softDeletes();
