@@ -22,6 +22,7 @@ class Person extends Model
         'name',
         'email',
         'phone',
+        'role',
     ];
 
     protected $casts = [

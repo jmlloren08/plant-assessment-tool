@@ -12,12 +12,18 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call([
-            PlantTypeSeeder::class,
-            PlantMakeSeeder::class,
-            PlantModelSeeder::class,
-            PlantConfigurationSeeder::class,
-            PlantSerialRangeSeeder::class,
-            PlantSerialNumberSeeder::class,
+            UserSeeder::class,
+            // CompanySeeder::class,
+            // IndustrySeeder::class,
+            // MineTypeSeeder::class,
+            // CompanySiteSeeder::class,
+            // PersonSeeder::class,
+            // PlantTypeSeeder::class,
+            // PlantMakeSeeder::class,
+            // PlantModelSeeder::class,
+            // PlantConfigurationSeeder::class,
+            // PlantSerialRangeSeeder::class,
+            // PlantSerialNumberSeeder::class,
         ]);
     }
 }
